@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Lato:wght@700&family=Poppins:wght@400;700&display=swap");
+
+header {
+	font-family: "Poppins";
+	font-weight: 400;
+}
+
+main {
+	background-color: rgba(212, 211, 230, 0.404);
+}
+
+@media (min-width: 768px) {
+	main {
+		margin: 30px;
+	}
+	header {
+		padding: 10px;
+	}
+}
